@@ -1,0 +1,10 @@
+const express = require("express");
+const Router = express.Router();
+const lessonController = require("../controller/lesson.controller");
+const upload = require("../middleware/multer.middleware");
+const Auth = require("../middleware/auth.middleware");
+const lessonupload = upload.fields([{name:"content" , maxCount:1}]);
+Router.route("/").post(Auth.verifyjwt, lessonupload , lessonController.newLesson);
+Router.route("/").get(lessonController.getAllLesson);
+Router.route("/:lessonId").delete(lessonController.deleteLesson).get(lessonController.getLesson);
+module.exports = Router;
