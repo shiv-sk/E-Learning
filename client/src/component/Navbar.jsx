@@ -22,7 +22,7 @@ export default function NavBar(){
           
           <Nav>
             {
-              user && user.role === "instructor" ? (
+              user && (user.role === "instructor" || user.role === "admin") ? (
                 <>
                   <Stack direction="horizontal" gap={4} >
                     <Link to={"/course"} className="text-decoration-none link-dark nav-Item">Course</Link>
