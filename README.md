@@ -40,5 +40,5 @@ cd E-Learning/client
 npm run dev (if u r using vite)
 
 Note:
-this project is still not handling the admin Dashboard (coming soon.....)
+this project is still not handling the admin Dashboard (coming soon.....) /n
 Schema-architecture : https://app.eraser.io/workspace/RhPscosNNdfcWSig462E?origin=share
