@@ -41,3 +41,4 @@ npm run dev (if u r using vite)
 
 Note:
 this project is still not handling the admin Dashboard (coming soon.....)
+Schema-architecture : https://app.eraser.io/workspace/RhPscosNNdfcWSig462E?origin=share
