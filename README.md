@@ -21,7 +21,7 @@ E-Learning/client/src ----- this contains
 utils/apicalls ------ this conatins axios getRequest , axios postRequest for sending to the server
 utils/userAuthorization -------- this conatins for getting the user from state and giving access to protected route and public route
 
-/server ------ this folder constains the connectionfolder , modelsfolder , controllerfolder and other folders
+E-Learning/server ------ this folder constains the connectionfolder , modelsfolder , controllerfolder and other folders
 models ---- this contains all the schemas 
 controllers ----- this contains the all the controllers
 routes ------- this contains all the routes file
