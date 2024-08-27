@@ -5,7 +5,7 @@ const cors = require("cors");
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(express.static("public"));
-const allowedOrigins = ["http://localhost:5173" , ""];
+const allowedOrigins = ["http://localhost:5173" , "https://e-learning-wkcm.vercel.app"];
 const corsOption = {
     origin:(origin , callback)=>{
         if(!origin || allowedOrigins.includes(origin)){
